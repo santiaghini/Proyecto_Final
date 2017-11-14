@@ -29,26 +29,32 @@ public class ProgramaNomina{
       System.out.println("5: Asignaciones y deducciones de empleado");
       System.out.println("6: Generar nómina");
       System.out.println("7: Generar recibos");
+      System.out.println("8: Enlistar empleados");
 
       op = lector.nextInt();
 
-      while ((op <= 0) || (op >= 8)) {
+      while ((op <= 0) || (op >= 9)) {
         System.out.println("Esa opción no es válida, por favor escribe un número en el rango.");
         op = lector.nextInt();
       }
 
       switch (op) {
-        //case 1: consulta();
+        case 1: consulta();
+                break;
         case 2: agregar();
                 break;
+        case 3: modificar();
+                break;
         case 4: eliminar();
+                break;
+        case 8: enlistar();
                 break;
       }
 
       System.out.println("¿Quieres realizar otra consulta?");
       System.out.println("s/n");
-      lector.nextLine();
         System.out.println();
+      lector.nextLine();
 
       answer = lector.nextLine();
 
@@ -57,14 +63,51 @@ public class ProgramaNomina{
 
   }
 
-  /*public static void consulta(){
+  public static void consulta(){
 
-    int numeroempleados = numeroempleados.agregar
-    //no se como llamar a una variable aqui
-    if (numempleados == 0)
-      System.out.println("No ha agragado ningún empleado");
+      String a = "s";
+
+      while(a.equals("s")) {
+
+          System.out.println("Consulta un empleado");
+
+          System.out.println("Número de nómina: ");
+          Integer num = lector.nextInt();
+
+          boolean b = nombresEmpleados.containsKey(num);
+          while (!b){
+              System.out.println("Ese empleado no existe en la base, pruebe de nuevo.");
+              System.out.println("Número de nómina: ");
+              num = lector.nextInt();
+              b = nombresEmpleados.containsKey(num);
+          }
+
+          System.out.printf("Los datos existentes para el empleado con número de nómina %d son: \n" , num);
+
+          System.out.println("Nombre:");
+          System.out.println(nombresEmpleados.get(num));
+
+          System.out.println("Apellidos:");
+          System.out.println(apellidosEmpleados.get(num));
+
+          System.out.println("Cargo:");
+          System.out.println(cargosEmpleados.get(num));
+
+          System.out.println("Sueldo base: (sólo números)");
+          System.out.println(sueldosEmpleados.get(num));
+
+          System.out.println("Fecha de ingreso: (formato: día/mes/año)");
+          System.out.println(fechasIngresoEmpleados.get(num));
+
+          System.out.println("¿Quieres consultar datos de otro empleado?");
+          System.out.println("s/n");
+          lector.nextLine();
+          a = lector.nextLine();
+          System.out.println();
+
+      }
   }
-*/
+
   public static void agregar(){
 
       String a = "s";
@@ -118,6 +161,94 @@ public class ProgramaNomina{
       }
   }
 
+    public static void modificar(){
+
+        String a = "s";
+
+        while(a.equals("s")) {
+
+
+            System.out.println("Modificar empleado");
+
+            System.out.println("Escribe el número de nómina:");
+            Integer num = lector.nextInt();
+
+            boolean b = nombresEmpleados.containsKey(num);
+            while (!b){
+                System.out.println("Ese empleado no existe en la base, pruebe de nuevo.");
+                System.out.println("Número de nómina: ");
+                num = lector.nextInt();
+                b = nombresEmpleados.containsKey(num);
+            }
+
+            System.out.printf("Los datos existentes para el empleado con número de nómina %d son: \n" , num);
+
+            System.out.println("Nombre:");
+            System.out.println(nombresEmpleados.get(num));
+
+            System.out.println("Apellidos:");
+            System.out.println(apellidosEmpleados.get(num));
+
+            System.out.println("Cargo:");
+            System.out.println(cargosEmpleados.get(num));
+
+            System.out.println("Sueldo base: (sólo números)");
+            System.out.println(sueldosEmpleados.get(num));
+
+            System.out.println("Fecha de ingreso: (formato: día/mes/año)");
+            System.out.println(fechasIngresoEmpleados.get(num));
+            System.out.println("");
+
+            System.out.println("¿Escribe el número del dato que quieras modificar?");
+            System.out.println("1: Nombre");
+            System.out.println("2: Apellidos");
+            System.out.println("3: Cargo");
+            System.out.println("4: Sueldo base");
+            System.out.println("5: Fecha de ingreso");
+            int op = lector.nextInt();
+
+            while ((op <= 0) || (op >= 8)) {
+                System.out.println("Esa opción no es válida, por favor escribe un número en el rango.");
+                op = lector.nextInt();
+            }
+
+            lector.nextLine();
+
+            switch (op) {
+                case 1: System.out.println("Escribe el nuevo nombre:");
+                        lector.nextLine();
+                        String nombre = lector.nextLine();
+                        nombresEmpleados.put(num , nombre);
+                    break;
+                case 2: System.out.println("Escribe los nuevos apellidos:");
+                        String apellidos = lector.nextLine();
+                        apellidosEmpleados.put(num , apellidos);
+                    break;
+                case 3: System.out.println("Escribe el cargo:");
+                        String cargo = lector.nextLine();
+                        cargosEmpleados.put(num , cargo);
+                    break;
+                case 4: System.out.println("Escribe el sueldo base:");
+                        Integer sueldo = lector.nextInt();
+                        lector.nextLine();
+                        sueldosEmpleados.put(num , sueldo);
+                    break;
+                case 5: System.out.println("Escribe la nueva fecha de ingreso: (formato: día/mes/año)");
+                        String fecha = lector.nextLine();
+                        fechasIngresoEmpleados.put(num , fecha);
+                    break;
+            }
+
+
+            System.out.println("¿Quieres modificar los datos de otro empleado?");
+            System.out.println("s/n");
+            lector.nextLine();
+            a = lector.nextLine();
+            System.out.println();
+
+        }
+    }
+
     public static void eliminar(){
 
         String a = "s";
@@ -132,7 +263,7 @@ public class ProgramaNomina{
 
             boolean b = nombresEmpleados.containsKey(num);
             while (!b){
-                System.out.println("Ese empleado ya no existe en la base, pruebe de nuevo.");
+                System.out.println("Ese empleado no existe en la base, pruebe de nuevo.");
                 System.out.println("Número de nómina: ");
                 num = lector.nextInt();
                 b = nombresEmpleados.containsKey(num);
@@ -156,6 +287,22 @@ public class ProgramaNomina{
             a = lector.nextLine();
             System.out.println();
 
+        }
+    }
+
+    public static void enlistar(){
+        System.out.println("Enlistar Empleados:");
+        System.out.println("");
+
+        for (Integer num : nombresEmpleados.keySet()) {
+
+            System.out.printf("Número de nómina: %d\n" , num);
+            System.out.printf("Nombre: %s\n" , nombresEmpleados.get(num));
+            System.out.printf("Apellidos: %s\n" , apellidosEmpleados.get(num));
+            System.out.printf("Cargo: %s\n" , cargosEmpleados.get(num));
+            System.out.printf("Sueldo base: %d\n" , sueldosEmpleados.get(num));
+            System.out.printf("Fecha de ingreso: %s\n" , fechasIngresoEmpleados.get(num));
+            System.out.println("");
         }
     }
 
