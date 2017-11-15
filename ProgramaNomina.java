@@ -47,6 +47,12 @@ public class ProgramaNomina{
                 break;
         case 4: eliminar();
                 break;
+       // case 5: asignar();
+         //       break;
+       // case 6: genNom();
+            //    break;
+       // case 7: genRec();
+          //      break;
         case 8: enlistar();
                 break;
       }
@@ -289,6 +295,18 @@ public class ProgramaNomina{
 
         }
     }
+
+    /*public static __ asignar(){
+    
+    }
+    
+    public static __ genNom(){
+    
+    }
+    
+    public static __ genRec(){
+    
+    }*/
 
     public static void enlistar(){
         System.out.println("Enlistar Empleados:");
