@@ -47,7 +47,7 @@ public class ProgramaNomina{
                 break;
         case 4: eliminar();
                 break;
-       // case 5: asignar();
+       // case 5: asigdeduc();
          //       break;
        // case 6: genNom();
             //    break;
@@ -296,16 +296,16 @@ public class ProgramaNomina{
         }
     }
 
-    /*public static __ asignar(){
-    
+    /*public static __ asigdeduc(){
+
     }
-    
+
     public static __ genNom(){
-    
+
     }
-    
+
     public static __ genRec(){
-    
+
     }*/
 
     public static void enlistar(){
