@@ -8,6 +8,8 @@ public class ProgramaNomina{
     private static Map<Integer, Integer> sueldosEmpleados = new HashMap<Integer, Integer>();
     private static Map<Integer, String> fechasIngresoEmpleados = new HashMap<Integer, String>();
 
+      //ESCRIBIR ARCHIVO
+      //LEER ARCHIVO
 
 
 
@@ -59,14 +61,13 @@ public class ProgramaNomina{
 
       System.out.println("¿Quieres realizar otra consulta?");
       System.out.println("s/n");
-        System.out.println();
-      lector.nextLine();
-
       answer = lector.nextLine();
-
+      System.out.println();
 
     }
 
+    //System.out.println("Si generaste recibos, las nóminas de tus empleados se guardaron");
+    //System.out.println("Gracias por usar PERSEUS");
   }
 
   public static void consulta(){
@@ -296,7 +297,7 @@ public class ProgramaNomina{
         }
     }
 
-    /*public static __ asigdeduc(){
+    /*public static _ asigDeduc(){
 
     }
 
