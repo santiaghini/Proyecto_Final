@@ -2,20 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8389bf64-13df-4259-a2af-40053932601e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LeerCSV.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SaveCSV.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Proyecto Fundamentos de Programación.pdf" afterPath="$PROJECT_DIR$/Proyecto Fundamentos de Programación.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Screen Shot 2017-11-06 at 12.01.48 PM.png" afterPath="$PROJECT_DIR$/Screen Shot 2017-11-06 at 12.01.48 PM.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/proyecto_final/ProgramaNomina.class" afterPath="$PROJECT_DIR$/out/production/proyecto_final/ProgramaNomina.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/proyecto_final/Proyecto Fundamentos de Programación.pdf" afterPath="$PROJECT_DIR$/out/production/proyecto_final/Proyecto Fundamentos de Programación.pdf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/proyecto_final/Screen Shot 2017-11-06 at 12.01.48 PM.png" afterPath="$PROJECT_DIR$/out/production/proyecto_final/Screen Shot 2017-11-06 at 12.01.48 PM.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/COMENTARIOSPROYECTO.md" afterPath="$PROJECT_DIR$/COMENTARIOSPROYECTO.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProgramaNomina.java" afterPath="$PROJECT_DIR$/ProgramaNomina.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/proyecto_final/.idea/misc.xml" afterPath="$PROJECT_DIR$/out/production/proyecto_final/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/proyecto_final/.idea/modules.xml" afterPath="$PROJECT_DIR$/out/production/proyecto_final/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/proyecto_final/.idea/vcs.xml" afterPath="$PROJECT_DIR$/out/production/proyecto_final/.idea/vcs.xml" />
@@ -23,7 +13,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/proyecto_final/COMENTARIOSPROYECTO.md" afterPath="$PROJECT_DIR$/out/production/proyecto_final/COMENTARIOSPROYECTO.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/proyecto_final/README.md" afterPath="$PROJECT_DIR$/out/production/proyecto_final/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/proyecto_final/proyecto_final.iml" afterPath="$PROJECT_DIR$/out/production/proyecto_final/proyecto_final.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/proyecto_final.iml" afterPath="$PROJECT_DIR$/proyecto_final.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -78,7 +67,17 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="santiaghini &lt;santi.hergut@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -297,12 +296,20 @@
       <workItem from="1510154697792" duration="8791000" />
       <workItem from="1510164322937" duration="1061000" />
       <workItem from="1511569414961" duration="117000" />
-      <workItem from="1511571238716" duration="16445000" />
+      <workItem from="1511571238716" duration="16566000" />
     </task>
+    <task id="LOCAL-00001" summary="FINAL">
+      <created>1511597266963</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1511597266963</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26414000" />
+    <option name="totallyTimeSpent" value="26535000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="36" width="1670" height="945" extended-state="0" />
@@ -342,6 +349,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="FINAL" />
+    <option name="LAST_COMMIT_MESSAGE" value="FINAL" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
