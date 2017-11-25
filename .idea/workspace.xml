@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8389bf64-13df-4259-a2af-40053932601e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/proyecto_final/ProgramaNomina.class" afterPath="$PROJECT_DIR$/out/production/proyecto_final/ProgramaNomina.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/proyecto_final/Proyecto Fundamentos de Programación.pdf" afterPath="$PROJECT_DIR$/out/production/proyecto_final/Proyecto Fundamentos de Programación.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/proyecto_final/Screen Shot 2017-11-06 at 12.01.48 PM.png" afterPath="$PROJECT_DIR$/out/production/proyecto_final/Screen Shot 2017-11-06 at 12.01.48 PM.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/proyecto_final/.idea/misc.xml" afterPath="$PROJECT_DIR$/out/production/proyecto_final/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/proyecto_final/.idea/modules.xml" afterPath="$PROJECT_DIR$/out/production/proyecto_final/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/proyecto_final/.idea/vcs.xml" afterPath="$PROJECT_DIR$/out/production/proyecto_final/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/proyecto_final/.idea/workspace.xml" afterPath="$PROJECT_DIR$/out/production/proyecto_final/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/proyecto_final/COMENTARIOSPROYECTO.md" afterPath="$PROJECT_DIR$/out/production/proyecto_final/COMENTARIOSPROYECTO.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/proyecto_final/README.md" afterPath="$PROJECT_DIR$/out/production/proyecto_final/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/proyecto_final/proyecto_final.iml" afterPath="$PROJECT_DIR$/out/production/proyecto_final/proyecto_final.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/empleados.csv" afterPath="$PROJECT_DIR$/empleados.csv" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,7 +18,7 @@
       <file leaf-file-name="ProgramaNomina.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ProgramaNomina.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
+            <state relative-caret-position="761">
               <caret line="549" column="46" lean-forward="false" selection-start-line="549" selection-start-column="46" selection-end-line="549" selection-end-column="46" />
               <folding>
                 <element signature="e#0#21674#0" expanded="true" />
@@ -40,18 +31,6 @@
                 <element signature="e#1208#1234#0" expanded="true" />
                 <element signature="e#4632#4641#0" expanded="true" />
                 <element signature="e#15474#15483#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SaveCSV.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SaveCSV.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="77">
-              <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="29" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -296,7 +275,7 @@
       <workItem from="1510154697792" duration="8791000" />
       <workItem from="1510164322937" duration="1061000" />
       <workItem from="1511569414961" duration="117000" />
-      <workItem from="1511571238716" duration="16566000" />
+      <workItem from="1511571238716" duration="16900000" />
     </task>
     <task id="LOCAL-00001" summary="FINAL">
       <created>1511597266963</created>
@@ -305,15 +284,21 @@
       <option name="project" value="LOCAL" />
       <updated>1511597266963</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="FINAL">
+      <created>1511597351591</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1511597351591</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26535000" />
+    <option name="totallyTimeSpent" value="26869000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="36" width="1670" height="945" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -323,7 +308,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.73768616" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.73768616" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -463,7 +448,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ProgramaNomina.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
+        <state relative-caret-position="761">
           <caret line="549" column="46" lean-forward="false" selection-start-line="549" selection-start-column="46" selection-end-line="549" selection-end-column="46" />
           <folding>
             <element signature="e#0#21674#0" expanded="true" />
