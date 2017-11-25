@@ -1,0 +1,14 @@
+Los siguientes datos serán ingresados por el operador del sistema:
+• Días Trabajados
+• Asignaciones (Bonos, Feriados, Horas Extras, entre otros)
+• Deducciones (IVA, ISR, Prestamos)
+
+El sistema proporcionará como datos de salida los siguientes reportes:
+• Recibo de Pago de cada trabajador (Sueldo Neto, Asignaciones, Total de
+Asignaciones, Deducciones, Total de Deducciones)
+• Listado de nómina de la empresa para el período correspondiente
+• Ficha Personal de Información del empleado con todos sus datos
+correspondientes
+
+
+Código de empleado: %d\nNombre: %s %s\n\nSueldo base: %d\tDías trabajados: %d\tTotal: %d\n\nAsignaciones\nBonos: %d\tFeriados: %d (Total: %d)\tHoras extra: %d (Salario/hora: %d, Total: %d)
